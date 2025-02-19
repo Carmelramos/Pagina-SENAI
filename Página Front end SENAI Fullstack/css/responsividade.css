@@ -1,0 +1,36 @@
+/* Responsividade */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 36px;
+  }
+
+  .chamada {
+    font-size: 20px;
+  }
+
+  .banner-wrapper {
+    width: 90%;
+  }
+
+  .carousel-box {
+    padding: 10px;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 28px;
+  }
+
+  .chamada {
+    font-size: 18px;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  }
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechPlay - Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <main class="container">
+        <!-- Logo do TechPlay -->
+        <div class="logo-container">
+            <img src="./img/Logo.png" alt="TechPlay Logo">
+        </div>
+
+        <section id="login-container" class="text-center">
+            <h1>Login</h1>
+            <form method="post" action="" id="login-form">
+                <div class="mb-3">
+                    <label for="usuario">Usuário:</label>
+                    <input id="usuario" name="usuario" required type="text" placeholder="Insira o seu usuário"
+                        class="form-control" />
+                </div>
+                <div class="mb-3">
+                    <label for="senha">Senha:</label>
+                    <input id="senha" name="senha" required type="password" placeholder="Insira a sua senha"
+                        class="form-control" />
+                </div>
+                <button type="button" class="btn login-btn w-100" id="bt-login" onclick="login()">Entrar</button>
+            </form>
+        </section>
+
+        <section id="register-container" class="text-center">
+            <p>Ainda não tem uma conta?</p>
+            <button type="button" class="btn register-btn" id="toggle-register">Cadastre-se</button>
+
+            <div id="form-cadastrar" class="d-none">
+                <h2>Criar Conta</h2>
+                <form method="post" action="" id="register-form">
+                    <div class="mb-3">
+                        <label for="new-usuario">Usuário:</label>
+                        <input id="new-usuario" name="new-usuario" required type="text" placeholder="Escolha um usuário"
+                            class="form-control" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="email">E-mail:</label>
+                        <input id="email" name="email" required type="email" placeholder="seu@email.com"
+                            class="form-control" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="new-senha">Senha:</label>
+                        <input id="new-senha" name="new-senha" required type="password" placeholder="Mínimo de 6 caracteres"
+                            class="form-control" />
+                    </div>
+                    <button type="button" class="btn login-btn w-100" id="bt-cadastrar"
+                        onclick="cadastro()">Cadastrar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/login.js"></script>
+</body>
+
+</html>

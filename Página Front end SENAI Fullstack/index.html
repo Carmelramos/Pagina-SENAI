@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechPlay - Loja Online</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsividade.css">
+</head>
+<body>
+    <!-- Barra de navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img width="80px" height="80px" src="./img/Logo.png" alt="Logo">
+                TechPlay - Sua loja Online
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Gamers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Tecnologia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+                </ul>
+            </div>
+            <a class="btn btn-danger" href="login.html">Login</a>
+        </div>
+    </nav>
+
+    <!-- Banner principal -->
+    <header class="container text-center mt-5">
+        <div class="banner-wrapper">
+            <img src="./img/Banner.jpg" class="img-fluid banner-img" alt="Banner Principal">
+        </div>
+        <br>
+        <h1>Conectando Emoções à Tecnologia!</h1>
+        <p class="chamada">Somos apaixonados por inovação, jogos e experiências que transformam o mundo digital.</p>
+        <br>
+        <a href="#" class="btn btn-success">Criar Conta</a>
+    </header>
+
+    <!-- Seção de Destaques -->
+    <section class="container mt-5 text-center">
+        <h2>Destaques</h2>
+        <p class="chamada">Conheça nossos produtos mais procurados e inovadores.</p>
+    </section>
+
+    <!-- Carrossel de Novidades -->
+    <div class="container mt-4 text-center">
+        <h2>Novidades</h2>
+        <div class="carousel-box">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/carrosel1.png" class="d-block w-100" alt="Produto 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/carrosel2.png" class="d-block w-100" alt="Produto 2">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seção Galeria -->
+    <section class="container mt-5 text-center">
+        <h2>Galeria</h2>
+        <div class="gallery">
+            <div class="gallery-item"><img src="./img/2.png" alt="Imagem 1"></div>
+            <div class="gallery-item"><img src="./img/2.png" alt="Imagem 2"></div>
+            <div class="gallery-item"><img src="./img/2.png" alt="Imagem 3"></div>
+            <div class="gallery-item"><img src="./img/2.png" alt="Imagem 4"></div>
+            <div class="gallery-item"><img src="./img/2.png" alt="Imagem 5"></div>
+            <div class="gallery-item"><img src="./img/2.png" alt="Imagem 6"></div>
+            <div class="gallery-item"><img src="./img/2.png" alt="Imagem 7"></div>
+            <div class="gallery-item"><img src="./img/2.png" alt="Imagem 8"></div>
+            <div class="gallery-item"><img src="./img/2.png" alt="Imagem 5"></div>
+            <div class="gallery-item"><img src="./img/2.png" alt="Imagem 6"></div>
+            <div class="gallery-item"><img src="./img/2.png" alt="Imagem 7"></div>
+            <div class="gallery-item"><img src="./img/2.png" alt="Imagem 8"></div>
+
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-light text-center py-4 mt-5">
+        <p>&copy; 2025 TechPlay Loja Online - Todos os direitos reservados</p>
+        <p>Email: contato@techplaylojaonline.com | Telefone: (61) 99999-9999</p>
+        <div>
+            <a href="#" class="me-3"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="me-3"><i class="fab fa-facebook-f"></i></a>
+            <a href="mailto:contato@techplaylojaonline.com" class="me-3"><i class="fas fa-envelope"></i></a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
