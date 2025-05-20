@@ -22,19 +22,3 @@ Este projeto é a **página principal do TechPlay**, um site moderno e responsiv
 - **JavaScript (ES6)** → Interação do botão de login e outros ajustes visuais.
 
 ---
-
-## 📂 Estrutura do Projeto
-
-📂 TechPlay 
-┣ 📂 css 
-┃ ┗ 📜 style.css # Estilos da página principal
-┃ ┗ 📜 login.css # Estilos da página de login
-┃ ┗ 📜 responsividade.css # Responsividade da página principal   
-┣ 📂 img 
-┃ ┗ 🖼️ logo-techplay.png # Logo do site 
-┃ ┗ 🖼️ # todas as imagens restantes utilizadas no site (total de 5)
-┣ 📂 js 
-┃ ┗ 📜 script.js # Funcionalidades interativas 
-┣ 📜 index.html # Página principal do site 
-┣ 📜 login.html # Página de Login e Cadastro 
-┣ 📜 README.md # Documentação do projeto
